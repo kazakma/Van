@@ -1,0 +1,136 @@
+.showcase{
+    width: 100%;
+    font-size: 30px;
+    background-color: salmon;
+    display:inline-block;
+    text-align: center;
+}
+.showcase li{
+    display:inline-block;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    list-style: none;
+}
+li:hover{
+    color:chartreuse;
+}
+img{
+    border:2px solid rebeccapurple;
+}
+.mn img{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    border:none;
+    margin-bottom: 20px;
+}
+.container{
+    text-align: center;
+    display:block;
+}
+.showcase img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+    display:inline-block;
+    text-align: none;
+}
+/* #catalog{
+    margin-right: 15px;
+}
+#nas{
+    margin-left: 15px;
+} */
+ .showcase2 { 
+    width: 100%;
+    font-size: 30px;
+    background-color: salmon;
+    display:inline-block;
+    text-align: center; 
+    margin-top: 100px;
+    vertical-align:middle;
+}
+.item img{
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+}
+.item{
+    width: 400px;
+    height: 450px;
+    display:inline-block;
+    margin:0 auto;
+}
+.item a{
+    display:block;
+    margin:0 auto;
+}
+.items{
+    display:inline-block;
+    margin:0 auto;
+}
+.item:hover p{
+    color:chartreuse;
+}
+.item:hover span{
+    color:chartreuse;
+}
+body{
+    background:tan;
+}
+.bondage {
+    display: flex;
+    justify-content: center;
+}
+.description {
+    display: block;
+    justify-content: center;
+}
+.description pre {
+    font-size: 16px;
+    margin-bottom: 0;
+
+}
+.description button {
+    display: block;
+    margin-left: 8.5%;
+    font-size: 17px;
+}
+
+.review {
+    font-size: 20px;
+    background:thistle;
+    display: block;
+    width: 600px;
+    height: 322px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+.pop {
+    font-size: 20px;
+    width: 1000px;
+    height: 650px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.pop li {
+    font-size: 15px;
+}
+.pop:hover a {
+    color: chartreuse;
+}
+.pop>li:hover li {
+    color: black;
+}
+h1{
+    color:royalblue;
+}
